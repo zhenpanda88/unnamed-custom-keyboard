@@ -321,10 +321,6 @@ F 3 "" H 1700 3200 60  0000 C CNN
 	1    1700 3200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3700 2800 1700 2800
-Wire Wire Line
-	1700 2800 1700 2900
 $Comp
 L power:GNDREF #PWR0108
 U 1 1 5DF64078
@@ -405,9 +401,6 @@ F 3 "" H 6450 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 2700 6400 2700
-Wire Wire Line
-	1700 2700 1700 2800
-Connection ~ 1700 2800
 $Comp
 L keyboard_parts:VUSB #PWR0110
 U 1 1 5DF7BF5E
@@ -1384,14 +1377,6 @@ Wire Wire Line
 	5850 2300 5950 2300
 Wire Wire Line
 	5850 2400 5950 2400
-Wire Wire Line
-	5850 2800 5950 2800
-Wire Wire Line
-	5850 2900 5950 2900
-Wire Wire Line
-	5850 3000 5950 3000
-Wire Wire Line
-	5850 3100 5950 3100
 Text Label 5950 2000 0    50   ~ 0
 col2
 Text Label 5950 2100 0    50   ~ 0
@@ -1404,14 +1389,6 @@ Text Label 5950 2300 0    50   ~ 0
 col5
 Text Label 5950 2400 0    50   ~ 0
 col6
-Text Label 5950 2800 0    50   ~ 0
-row1
-Text Label 5950 2900 0    50   ~ 0
-row2
-Text Label 5950 3000 0    50   ~ 0
-row3
-Text Label 5950 3100 0    50   ~ 0
-row4
 Text Label 7850 1950 2    50   ~ 0
 row1
 Text Label 7850 2750 2    50   ~ 0
@@ -1488,4 +1465,29 @@ F 3 "" H 2550 3400 60  0000 C CNN
 	1    2550 3400
 	1    0    0    -1  
 $EndComp
+Connection ~ 1700 2800
+Wire Wire Line
+	1700 2700 1700 2800
+Wire Wire Line
+	1700 2800 1700 2900
+Text Label 3600 2800 2    50   ~ 0
+reset
+Wire Wire Line
+	3700 2800 1700 2800
+Wire Wire Line
+	3700 3700 3600 3700
+Wire Wire Line
+	3700 3600 3600 3600
+Wire Wire Line
+	3700 3500 3600 3500
+Wire Wire Line
+	3700 3400 3600 3400
+Text Label 3600 3700 2    50   ~ 0
+row4
+Text Label 3600 3600 2    50   ~ 0
+row3
+Text Label 3600 3500 2    50   ~ 0
+row2
+Text Label 3600 3400 2    50   ~ 0
+row1
 $EndSCHEMATC
