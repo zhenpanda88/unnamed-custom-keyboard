@@ -1,0 +1,50 @@
+
+
+   ---- Transcoding 'C:\Users\White\AppData\Local\Temp\untitled-keyboard-project gerbers_importZIP\untitled-keyboard-project-F_Paste.gtp' ----   Thu Jan 02 16:57:49 2020
+
+D10   --> D100
+D12   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\White\AppData\Local\Temp\untitled-keyboard-project gerbers_importZIP\untitled-keyboard-project-F_Cu.gtl' ----   Thu Jan 02 16:57:49 2020
+
+D10   --> D102
+D11   --> D103
+D13   --> D104
+D14   --> D105
+D15   --> D106
+D16   --> D107
+D17   --> D108
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\White\AppData\Local\Temp\untitled-keyboard-project gerbers_importZIP\untitled-keyboard-project-Edge_Cuts.gml' ----   Thu Jan 02 16:57:49 2020
+
+D10   --> D109
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\White\AppData\Local\Temp\untitled-keyboard-project gerbers_importZIP\untitled-keyboard-project-B_Cu.gbl' ----   Thu Jan 02 16:57:49 2020
+
+D10   --> D110
+D11   --> D111
+D12   --> D112
+D14   --> D113
+D15   --> D114
+D16   --> D115
+D17   --> D116
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\White\AppData\Local\Temp\untitled-keyboard-project gerbers_importZIP\untitled-keyboard-project-B_Paste.gbp' ----   Thu Jan 02 16:57:49 2020
+
+D11   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\White\AppData\Local\Temp\untitled-keyboard-project gerbers_importZIP\untitled-keyboard-project-B_SilkS.gbo' ----   Thu Jan 02 16:57:49 2020
+
+D10   --> D118
+D11   --> D119
+-----------------------------------------------------------------
